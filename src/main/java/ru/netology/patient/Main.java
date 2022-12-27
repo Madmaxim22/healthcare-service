@@ -44,7 +44,9 @@ public class Main {
         BloodPressure currentPressure = new BloodPressure(60, 120);
         medicalService.checkBloodPressure(id1, currentPressure);
 
-        BigDecimal currentTemperature = new BigDecimal("37.9");
+        BigDecimal currentTemperature = new BigDecimal("30.9");
         medicalService.checkTemperature(id1, currentTemperature);
+
+
     }
 }
